@@ -6,8 +6,10 @@ WORKDIR /app
 
 FROM python:3.9
 
-
+COPY zickle.py  .
 COPY requirements.txt .
+COPY MEG_preprocessing.py . 
+COPY runner.sh /main.sh
 
 RUN pip install -r requirements.txt
 
