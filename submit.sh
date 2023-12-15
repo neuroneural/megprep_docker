@@ -2,7 +2,7 @@
 
 echo "in submit.sh"
 
-project_dir=/data/users2/mjafarlou1/code
+project_dir=/data/users2/mjafarlou1/code/megprep_docker
 echo "project_dir is $project_dir"
 
 paths_file=${project_dir}/paths
